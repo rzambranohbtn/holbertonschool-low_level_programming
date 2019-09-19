@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <ctype.h>
+/**
+*main - initial point
+*Return: 0
+*alphABET
+*/
+int main(void)
+{
+int x;
+int c;
+for (x = 48; x < 58; x++)
+putchar (x);
+for (c = 97; c <= 102; c++)
+putchar(c);
+putchar('\n');
+
+return (0);
+}
