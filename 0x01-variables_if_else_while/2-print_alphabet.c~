@@ -1,0 +1,15 @@
+#include <stdio.h>
+/**
+*main - initial point
+*Return: 0
+*alphabet game
+*/
+int main(void)
+{
+for (int x = 'A'; x <= 'Z'; x++)
+{
+x = tolower(x);
+putchar (x);
+}
+return (0);
+}
