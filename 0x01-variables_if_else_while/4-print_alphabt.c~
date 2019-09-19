@@ -1,0 +1,16 @@
+#include <stdio.h>
+/**
+*main - initial point
+*Return: 0
+*alphabet game
+*/
+int main(void)
+{
+int x;
+for (x = 'a'; x <= 'z'; x++)
+for (x != 'q'; x != 'e'; x++)
+putchar (x);
+putchar('\n');
+
+return (0);
+}
