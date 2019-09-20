@@ -6,12 +6,12 @@
 *comb4
 */
 int main(void)
-{	int x;
-	int y;
-	int z;
-	x = 48;
-	y = 49;
-	z = 50;
+{int x;
+int y;
+int z;
+x = 48;
+y = 49;
+z = 50;
 	while (x < 58)
 	{
 		while (y < 58)
