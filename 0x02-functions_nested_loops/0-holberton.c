@@ -5,15 +5,14 @@
 */
 int main(void)
 {
-	int i = 0;
-	char c;
-	char s[] = "Holberton\n";
+	int x;
+	char letra;
+	char array[] = "Holberton\n";
 
-	while (i <= 9)
+	for (x = 0; x <= 9; x++)
 	{
-		c = s[i];
-		_putchar(c);
-		i++;
+		letra = array[x];
+		_putchar(letra);
 	}
 	return (0);
 }
