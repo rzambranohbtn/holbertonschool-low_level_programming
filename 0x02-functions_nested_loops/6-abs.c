@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
  *_abs - absolute valor
- *@c - valor entry
+ *@c: valor entry
  *Return: abs
  */
 
