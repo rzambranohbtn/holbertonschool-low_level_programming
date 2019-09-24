@@ -1,6 +1,7 @@
 #include "holberton.h"
 /**
  *print_sign - is +,0,-
+ *@n: number
  *Return: 1,0,-1
  */
 
