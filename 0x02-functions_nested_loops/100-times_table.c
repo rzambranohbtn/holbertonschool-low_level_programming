@@ -13,7 +13,7 @@ void print_times_table(int n)
 	int second;
 	int third;
 
-	if (n>0 && n<15)
+	if ((n > 0) && (n < 15))
 	for (x = 0; x <= n; x++)
 	{
 		_putchar('0');
@@ -31,17 +31,19 @@ void print_times_table(int n)
 				_putchar(second + '0');
 				_putchar(first + '0');
 			}
-			else if (mul > 9 && mul < 100 )
+			else if ((mul > 9) && (mul < 100))
 			{
+				_putchar(' ');
 				_putchar(second + '0');
 				_putchar(first + '0');
 			}
 			else
 			{
+				_putchar(' ');
+				_putchar(' ');
 				_putchar(first + '0');
 			}
 		}
 		_putchar('\n');
-		_putchar(' ');
 	}
 }
