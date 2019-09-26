@@ -1,0 +1,15 @@
+#include "holberton.h"
+/**
+ *print_diagonal - print
+ *@n: number of times
+ */
+
+void print_diagonal(int n)
+{
+	int x;
+
+	for (x = 0; x < n; x++)
+		_putchar(' ');
+	_putchar(92);
+	_putchar('\n');
+}
