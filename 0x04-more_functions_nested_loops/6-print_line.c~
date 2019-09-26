@@ -1,0 +1,8 @@
+#include "holberton.h"
+/**
+ *print_line - print line
+ *@n: integer
+ */
+void print_line(int n)
+{
+}
