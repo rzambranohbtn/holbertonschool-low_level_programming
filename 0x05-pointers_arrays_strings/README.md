@@ -1,0 +1,1 @@
+**In this directory we can find code for Pointers in C**
