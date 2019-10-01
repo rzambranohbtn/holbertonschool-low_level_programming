@@ -11,9 +11,11 @@ char *_strcpy(char *dest, char *src)
 
 	index = 0;
 
-	while (src[index])
+	while (src[index] != '\0')
 	{
 		dest[index] = src[index];
+		if (src[index + 1] == NULL)
+			dest[index + 1] = src[index + 1];
 		index++;
 	}
 	return (dest);
