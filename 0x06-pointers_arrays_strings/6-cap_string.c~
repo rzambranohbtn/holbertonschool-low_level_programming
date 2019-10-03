@@ -1,0 +1,7 @@
+/**
+ *string_toupper - Lowercase change
+ *Return: Lowercase
+ */
+char *string_toupper(char *)
+{
+}
