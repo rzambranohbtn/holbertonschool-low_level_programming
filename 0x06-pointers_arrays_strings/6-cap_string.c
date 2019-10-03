@@ -2,6 +2,7 @@
 /**
  *cap_string - convert capitalice
  *@s: string
+ *Return: Capitalize
  */
 char *cap_string(char *s)
 {
