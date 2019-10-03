@@ -13,5 +13,6 @@ char *string_toupper(char *s)
 			s[i] += -32;
 	i++;
 	}
+	s[i] = '\0';
 	return (s);
 }
