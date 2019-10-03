@@ -9,7 +9,7 @@ void reverse_array(int *a, int n)
 	int tmp;
 	int x;
 
-	if ( n % 2 == 0 )
+	if (n % 2 == 0)
 	{
 		medio = n / 2;
 	}
@@ -19,10 +19,10 @@ void reverse_array(int *a, int n)
 	}
 	n--;
 
-	for(x=0; x<medio;x++)
+	for (x = 0; x < medio; x++)
 	{
-		tmp=a[x];
-		a[x]=a[n-x];
-		a[n-x]=tmp;
+		tmp = a[x];
+		a[x] = a[n - x];
+		a[n - x] = tmp;
 	}
 }
