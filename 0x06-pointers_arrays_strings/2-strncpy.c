@@ -4,25 +4,19 @@
  *@dest: destination
  *@src: origin
  *@n: integer
- *Return: pointer concat
+ *Return: pointer dest
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-	int leng = 0;
 	int pos = 0;
 
-	while (dest[leng] != '\0')
+	for (pos = 0; pos < n && src[pos] != '\0'; pos++)
 	{
-		leng++;
-	}
-
-	for (pos = 0; pos < n && src[pos] != '\0'; pos++, leng++)
-	{
-		*(dest + leng) = *(src + pos);
+		*(dest + pos) = *(src + pos);
 	}
 	for ( ; pos < n; pos++)
 	{
-		*(dest + leng) = '\0';
+		*(dest + pos) = '\0';
 	}
 	return (dest);
 }
