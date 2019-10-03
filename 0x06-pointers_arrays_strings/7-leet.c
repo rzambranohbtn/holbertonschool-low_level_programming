@@ -1,0 +1,23 @@
+#include "holberton.h"
+/**
+ * leet - replace
+ * @s: string to encode
+ *
+ * Return: replace char by numbers
+ */
+char *leet(char *s)
+{
+	int i, j;
+	char x[] = "aAeEoOtTlL";
+	char y[] = "4433007711";
+
+	for (i = 0; s[i]; i++)
+	{
+		for (j = 0; j <= 9; j++)
+		{
+			if (x[j] == s[i])
+				s[i] = y[j];
+		}
+	}
+	return (s);
+}
