@@ -3,7 +3,7 @@
  *_strncat - concat with n
  *@dest: destination
  *@src: origin
- *@n - integer
+ *@n: integer
  *Return: pointer concat
  */
 char *_strncat(char *dest, char *src, int n)
