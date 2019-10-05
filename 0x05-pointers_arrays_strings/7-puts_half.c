@@ -5,22 +5,25 @@
  */
 void puts_half(char *str)
 {
-	int counter, x, n;
+	int len = 0;
+	int x;
 
-	counter = 0;
-	x = 0;
-	n = 0;
+	while (str[len] != '\0')
+		len++;
 
-	while (str[counter] != '\0')
-		counter++;
-	if ((counter % 2) == 0)
-		n = counter / 2;
-	else
-		n = (counter + 1) / 2;
-
-	for (x = n; x < counter; x++)
+	if (len % 2 == 0)
 	{
-		_putchar(str[x]);
+		for (x = len / 2; x <= len; x++)
+		{
+			_putchar(str[x]);
+		}
+	}
+	else
+	{
+		for (x = (len / 2) + 1; x <= len; x++)
+		{
+			_putchar(str[x]);
+		}
 	}
 	_putchar('\n');
 
